@@ -4,5 +4,5 @@
  * and open the template in the editor.
  */
 $("#oprimir").click(function(){
-    alert("me has apachurrado!!");
+    alert("no des click");
 });
