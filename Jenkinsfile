@@ -3,19 +3,19 @@ pipeline{
   stages {
       stage('build'){
           steps{
-          echo 'Hi TCS I am building the app....'
+          echo 'Hi TCS app is being Build....'
           
           }
       }
       stage('test'){
           steps{
-           echo 'Hi TCS I am testing the app....'
+           echo 'Hi TCS app is being tested....'
           
           }
       }
       stage('deploy'){
           steps{
-           echo 'Hi TCS I am deploying the app....'
+           echo 'Hi TCS app is being deployed....'
           }
       }
   }
